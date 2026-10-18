@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(pico-switch-controller pico-switch-controller.c )
+add_executable(pico-switch-controller src/main.c)
 
 pico_set_program_name(pico-switch-controller "pico-switch-controller")
 pico_set_program_version(pico-switch-controller "0.1")
@@ -44,19 +44,15 @@ pico_set_program_version(pico-switch-controller "0.1")
 pico_enable_stdio_uart(pico-switch-controller 0)
 pico_enable_stdio_usb(pico-switch-controller 1)
 
-# Add the standard library to the build
-target_link_libraries(pico-switch-controller
-        pico_stdlib)
-
 # Add the standard include files to the build
 target_include_directories(pico-switch-controller PRIVATE
-        ${CMAKE_CURRENT_LIST_DIR}
+        ${CMAKE_CURRENT_LIST_DIR}/src
 )
 
-# Add any user requested libraries
 target_link_libraries(pico-switch-controller
     pico_stdlib
-    pico_cyw43_arch_none)
+    pico_cyw43_arch_none
+    pico_btstack_cyw43
+    pico_btstack_classic)
 
 pico_add_extra_outputs(pico-switch-controller)
-
