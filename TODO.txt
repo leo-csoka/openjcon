@@ -1,0 +1,22 @@
+# main stuff that needs to get done (timeline order)
+
+[] - Finish BTStack HID Setup
+[] - Modify HID Descriptor
+[] - Figure out connection routine, handshake, data forwarding
+[] - Create Joycon Class (struct derivative)
+[] - Test Joycon Class with Preprogrammed inputs
+[] - Test Joycon Class with Dynamic inputs
+[] - Confirm all inputs, handshake, communication working well wirelessly
+
+# requires previous steps finished first, needs physical prototyping
+
+[] - Wire sliding connector ribbon cable to Pico W
+[] - Write connection communication routine
+[] - Live test physical communication routine
+[] - High level class implementation for Joycon struct
+[] - Dynamic choice between connection wirelessly and wired
+
+# testing and finalization work
+
+[] - Get clean build of full controller Setup
+[] - Test with high-level script and all relevant button inputs to Pico
