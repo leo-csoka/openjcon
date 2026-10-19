@@ -1,7 +1,7 @@
 # picon
 **picon** is an effort to emulate a Joy-Con using the original Raspberry Pi Pico W. This includes Bluetooth Classic HID support and a wired connection to the Switch. More information will be available soon.
 
-## Repository structure
+## repository structure
 ```text
 .
 ├── .gitignore
@@ -22,4 +22,4 @@
     └── input.py
 ```
 
-**Last updated**: Oct 19, 2026
+**last updated**: Oct 19, 2026
