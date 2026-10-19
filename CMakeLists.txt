@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(pico-switch-controller src/main.c)
+add_executable(pico-switch-controller src/main.c src/gamepad_hid.c)
 
 pico_set_program_name(pico-switch-controller "pico-switch-controller")
 pico_set_program_version(pico-switch-controller "0.1")
