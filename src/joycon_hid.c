@@ -78,7 +78,7 @@ const uint8_t joycon_hid_descriptor[] = {
     0x85, JOYCON_OUTPUT_RUMBLE,       // report id: rumble output
     0x09, 0x10,                       // usage
     0x75, 0x08,                       // 8 bits per element
-    0x95, 0x30,                       // 48 elements
+    0x95, 0x09,                       // 9 rumble bytes
     0x91, 0x02,                       // output data, variable, absolute
 
     0x85, JOYCON_OUTPUT_MCU_DATA,     // report id: mcu output

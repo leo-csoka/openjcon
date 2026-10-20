@@ -15,8 +15,8 @@
 ├── src/
 │   ├── btstack_config.h
 │   ├── btstack_config_common.h
-│   ├── gamepad_hid.c
-│   ├── gamepad_hid.h
+│   ├── joycon_hid.c
+│   ├── joycon_hid.h
 │   └── main.c
 └── testing/
     └── input.py
