@@ -1,11 +1,11 @@
 # main stuff that needs to get done (timeline order)
 
-[] - Finish BTStack HID Setup
-[] - Modify HID Descriptor
-[] - Figure out connection routine, handshake, data forwarding
-[] - Create Joycon Class (struct derivative)
-[] - Test Joycon Class with Preprogrammed inputs
-[] - Test Joycon Class with Dynamic inputs
+[X] - Finish BTStack HID Setup
+[X] - Modify HID Descriptor
+[X] - Figure out connection routine, handshake, data forwarding
+[X] - Create Joycon Class (struct derivative)
+[X] - Test Joycon Class with Preprogrammed inputs
+[X] - Test Joycon Class with Dynamic inputs
 [] - Confirm all inputs, handshake, communication working well wirelessly
 
 # requires previous steps finished first, needs physical prototyping
@@ -20,3 +20,9 @@
 
 [] - Get clean build of full controller Setup
 [] - Test with high-level script and all relevant button inputs to Pico
+
+# joycon class follow-ups
+
+[] - Live test colors, rumble, imu axis signs on the switch
+[] - Serial command input (press/tap/stick) for testing without buttons
+[] - Remove main.c once serial input owns startup

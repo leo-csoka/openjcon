@@ -1,5 +1,5 @@
-#ifndef JOYCON_HID_H
-#define JOYCON_HID_H
+#ifndef JOYCON_DESCRIPTOR_H
+#define JOYCON_DESCRIPTOR_H
 
 #include <stdint.h>
 

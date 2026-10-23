@@ -1,4 +1,4 @@
-#include "joycon_hid.h"
+#include "joycon_descriptor.h"
 
 // joycon data profile
 const uint8_t joycon_hid_descriptor[] = {
