@@ -37,6 +37,34 @@ static void serial_tick(btstack_timer_source_t *timer) {
                 if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
                     jc->tap(jc, "DRIGHT");
                 }
+            } else if (strcmp(buffer, "CAPTURE") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "CAPTURE");
+                }
+            } else if (strcmp(buffer, "MINUS") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "MINUS");
+                }
+            } else if (strcmp(buffer, "LSTICK") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "LSTICK");
+                }
+            } else if (strcmp(buffer, "SL") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "SL");
+                }
+            } else if (strcmp(buffer, "SR") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "SR");
+                }
+            } else if (strcmp(buffer, "ZL") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "ZL");
+                }
+            } else if (strcmp(buffer, "L") == 0) {
+                if (jc->get_pair_state(jc) == JOYCON_CONNECTED) {
+                    jc->tap(jc, "L");
+                }
             }
 
             buffer_index = 0;
