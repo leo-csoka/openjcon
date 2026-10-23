@@ -5,13 +5,12 @@
 ```text
 .
 ├── .gitignore
+├── build.sh
 ├── CMakeLists.txt
 ├── LICENSE
-├── README.md
-├── TODO.txt
 ├── pico_sdk_import.cmake
-├── build.sh
 ├── push.sh
+├── README.md
 ├── src/
 │   ├── btstack_config.h
 │   ├── btstack_config_common.h
@@ -22,6 +21,7 @@
 │   ├── joycon_descriptor.c
 │   ├── joycon_descriptor.h
 │   └── main.c
+└── TODO.txt
 ```
 
 **last updated**: Oct 22, 2026
